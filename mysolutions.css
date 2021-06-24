@@ -120,3 +120,16 @@
 }
 
 /* /Fine Nono esercizio */
+
+/* Decimo esercizio */
+
+.ex-10-icon {
+    animation: rotate 6s infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* /Fine Decimo esercizio */
