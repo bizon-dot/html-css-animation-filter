@@ -45,3 +45,20 @@
 }
 
 /* /Fine Quarto esercizio */
+
+/* Quinto esercizio */
+
+.ex-5-square {
+    transition: width 5s;
+}
+
+.ex-5-square:hover {
+   width: 120%;
+}
+
+.ex-5-square:active {
+    width: 30%;
+ }
+
+
+/* /Fine Quinto esercizio */
