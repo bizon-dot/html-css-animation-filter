@@ -171,3 +171,61 @@
 }
 
 /*/Fine Dodicesimo esercizio */
+
+/* Tredicesimo esercizio */
+
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: moveTopWhiteCompletely 2s linear;
+}
+@keyframes moveTopWhiteCompletely {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white,.ex-13-top-white {
+    animation: moveWhiteAllAround 2s linear;
+}
+@keyframes moveWhiteAllAround {
+    0% {
+        
+        right: 0;
+    }
+    30% {
+        right:  30%;
+    }
+    45% {
+        right: 45%;
+    }
+    75% {
+        right: 75%;
+    }
+    90% {
+        right: 90%;
+    }
+    100% {
+        right: 100%;
+    }
+}
+/* /Fine tredicesimo esercizio */
