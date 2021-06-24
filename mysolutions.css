@@ -1,0 +1,11 @@
+/* Primo esercizio */
+
+.ex-1-square {
+    transition: background-color 4s ease-in-out 1s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* Fine Primo esercizio */
