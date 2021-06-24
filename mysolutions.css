@@ -71,3 +71,11 @@
 
 
 /* /Fine Quinto esercizio */
+
+/* Sesto esercizio */
+
+.ex-6-img:hover{
+    filter:grayscale(1);
+}
+
+/* /Fine Sesto esercizio */
