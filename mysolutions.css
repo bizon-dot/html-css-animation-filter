@@ -9,3 +9,15 @@
 }
 
 /* Fine Primo esercizio */
+
+/* Secondo esercizio */
+
+.ex-2-square {
+    transition: width 4s;
+}
+
+.ex-2-square:active {
+    width:100%;
+}
+
+/* Fine Secondo esercizio */
