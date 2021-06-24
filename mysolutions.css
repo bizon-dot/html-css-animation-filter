@@ -209,29 +209,30 @@
 }
 @keyframes moveWhiteAllAround {
     0% {
-        top: -10px;
         left: 10%;
+        top: -10px;
     }
     30% {
+        left: calc(100% - 30px);
         top: -10px;
-        left:  calc(100% - 40px);
     }
     45% {
+        left: calc(100% - 30px);
         top: 100%;
-        left: calc(100% - 40px);
     }
     75% {
+        left: 0;
         top: 100%;
-        left: calc(100% - 40px);
     }
     90% {
+        left: -15px;
         top: -10px;
-        left: calc(100% - 40px);
     }
     100% {
+        left: 10%;
         top: -10px;
-        left: 100%;
     }
+
 }
 
 
