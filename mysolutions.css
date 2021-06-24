@@ -33,3 +33,15 @@
 }
 
 /* /Fine terzo esercizio */
+
+/* Quarto esercizio */
+
+.ex-4-square{
+    transition: background-color 7s;
+}
+
+.ex-4-square:hover {
+    background-color:#f5f5f5;
+}
+
+/* /Fine Quarto esercizio */
