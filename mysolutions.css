@@ -133,3 +133,21 @@
 }
 
 /* /Fine Decimo esercizio */
+
+/* Undicesimo esercizio */
+.ex-11-icon {
+    animation: rotateAndUnrotate 6s infinite;
+}
+@keyframes rotateAndUnrotate {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* /Fine Undicesimo esercizio*/
