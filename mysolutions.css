@@ -151,3 +151,23 @@
 }
 
 /* /Fine Undicesimo esercizio*/
+
+/* Dodicesimo esercizio */
+
+.ex-12-top-white,
+.ex-12-bottom-white {
+    animation: moveWhite 8s infinite;
+}
+@keyframes moveWhite {
+    0% {
+        left: 20%;
+    }
+    50% {
+        left: 30%;
+    }
+    100% {
+        left: 60%;
+    }
+}
+
+/*/Fine Dodicesimo esercizio */
